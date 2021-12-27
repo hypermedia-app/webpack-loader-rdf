@@ -7,6 +7,9 @@
     "lint": "standard --fix",
     "release": "changeset publish"
   },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@rdfjs/serializer-rdfjs": "^0.0.4",
     "@rdfjs/formats-common": "^2.2.0",
