@@ -1,0 +1,37 @@
+{
+  "name": "webpack-loader-rdf",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "standard --fix",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@rdfjs/serializer-rdfjs": "^0.0.4",
+    "@rdfjs/formats-common": "^2.2.0",
+    "rdf-utils-fs": "^2.2.0",
+    "string-to-stream": "^3.0.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.19.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "standard": "^16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypermedia-app/webpack-loader-rdf.git"
+  },
+  "author": "Tomasz Pluskiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypermedia-app/webpack-loader-rdf/issues"
+  },
+  "homepage": "https://github.com/hypermedia-app/webpack-loader-rdf#readme",
+  "lint-staged": {
+    "*.{js,ts}": [
+      "standard --fix --quiet"
+    ]
+  }
+}
