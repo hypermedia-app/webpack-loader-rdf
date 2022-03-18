@@ -1,6 +1,6 @@
 # webpack-loader-rdf [![Published on npm](https://img.shields.io/npm/v/webpack-loader-rdf.svg)](https://npm.im/webpack-loader-rdf)
 
-RDF/JS parsers (and serializers) are quite heavy, only work asynchrnously, and depend on various node-native modules, such as `stream` and `crypto`. This can be a nuisance when static RDF is imported early in an application becasue it unnecessarily increases the size of the initial bundle and thus slows down the initial page load.
+RDF/JS parsers (and serializers) are quite heavy, only work asynchronously, and depend on various node-native modules, such as `stream` and `crypto`. This can be a nuisance when static RDF is imported early in an application becasue it unnecessarily increases the size of the initial bundle and thus slows down the initial page load.
 
 A webpack loader reserializes RDF into JS code so that it can be bundled along all other sources.
 
