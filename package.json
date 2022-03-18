@@ -11,7 +11,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@rdfjs/serializer-rdfjs": "^0.0.4",
+    "@rdfjs/serializer-rdfjs": "^0.1",
     "@rdfjs/formats-common": "^2.2.0",
     "rdf-utils-fs": "^2.2.0",
     "string-to-stream": "^3.0.1"
@@ -36,5 +36,8 @@
     "*.{js,ts}": [
       "standard --fix --quiet"
     ]
+  },
+  "engines": {
+    "node": ">=13"
   }
 }
