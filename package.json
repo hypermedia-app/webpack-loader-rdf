@@ -17,7 +17,7 @@
     "string-to-stream": "^3.0.1"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.19.0",
+    "@changesets/cli": "^2.21.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "standard": "^16"
